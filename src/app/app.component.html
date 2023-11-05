@@ -1,0 +1,38 @@
+<h1>{{title2 | titlecase}}</h1>
+<main>
+  <h2>Custom Pipe</h2>
+  <div class="div">
+    <h3>Temperature Converter App</h3>
+    <p>Fahrenheit to Celsius</p>
+    <p>Fahrenheit : <input type="text" [(ngModel)]="Fahrenheit" /></p>
+    <p>Temperature is : " {{ Fahrenheit | tempConverter : 'C' }} " C</p>
+    <br>
+    <p>Celcius to Fahrenheit</p>
+    <p>Celcius : <input type="text" [(ngModel)]="Celsius" /></p>
+    <p>Temperature is : " {{ Celsius | tempConverter: 'F' }} " F</p>
+  </div>
+</main>
+
+<br><br>
+
+<h1>{{title3 | titlecase}}</h1>
+<main>
+  <h2>Custom Pipe</h2>
+  <div style="background-color: cornflowerblue;">
+    <h3>String Convert Into Array</h3>
+    <p>String Input : <input type="text" [(ngModel)]="str_to_arr" /> </p>
+    <p>Array Output : [ {{ str_to_arr | customPipe }} ]</p>
+  </div>
+</main>
+
+<br><br>
+
+<h1>{{title4 | titlecase}}</h1>
+<main>
+  <h2>Custom Pipe</h2>
+  <div style="background-color: rgb(66, 249, 97);">
+    <h3>Reverse String</h3>
+    <p>String Input : <input type="text" [(ngModel)]="reverse_str" /> </p>
+    <p>Reverse String Output :  {{ reverse_str | reverse | uppercase }} </p>
+  </div>
+</main>
