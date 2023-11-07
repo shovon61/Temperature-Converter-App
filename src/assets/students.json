@@ -1,24 +1,24 @@
 [
     {
         "ID": "std101",
-        "Name": "Rakesh Rout",
-        "DOB": "12/8/1988", 
+        "Name": "Mehedi hasan",
+        "DOB": "2/7/1998", 
         "Gender": "Male", 
-        "CourseFee": 1234.56
+        "CourseFee": 500
     },
     {
         "ID": "std102", 
-        "Name": "Anurag Mohanty", 
-        "DOB": "10/14/1989", 
+        "Name": "Mahmudul Hassan", 
+        "DOB": "9/8/1999", 
         "Gender": "Male", 
-        "CourseFee": 6666.00
+        "CourseFee": 700
     },
     {
         "ID": "std103", 
         "Name": "Priyanka Dewangan", 
-        "DOB": "7/24/1992", 
+        "DOB": "4/4/1892", 
         "Gender": "Female", 
-        "CourseFee": 6543.15
+        "CourseFee": 1100
     },
     {
         "ID": "std104", 

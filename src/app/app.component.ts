@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { StudentsDataService } from './students-data.service';
+import { Sinterface } from './sinterface';
 
 @Component({
   selector: 'app-root',
@@ -43,8 +44,8 @@ export class AppComponent {
     ngOnInit(){
         //this.service.getdata().subscribe(res=>this.student=res);
 
-       this.service.getdata().subscribe((res:any[])=>{
-        this.student=res;
+       this.service.getdata().subscribe((res: Sinterface)=>{
+         this.student=res;
       });
     }
 
