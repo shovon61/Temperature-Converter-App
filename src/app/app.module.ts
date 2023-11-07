@@ -7,6 +7,7 @@ import {TempConverterPipe} from './temp-convertor.pipe';
 import { HttpClientModule } from '@angular/common/http';
 import { CustomPipePipe } from './custom-pipe.pipe';
 import { ReversePipe } from './reverse.pipe';
+import { TablePipe } from './table.pipe';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ReversePipe } from './reverse.pipe';
     AppComponent,
     TempConverterPipe,
     CustomPipePipe,
-    ReversePipe
+    ReversePipe,
+    TablePipe
   ],
   imports: [
     BrowserModule,
