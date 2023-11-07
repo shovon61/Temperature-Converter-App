@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { StudentsDataService } from './students-data.service';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ export class AppComponent {
   Fahrenheit!:number;
   str_to_arr!: string;
   reverse_str!:string;
+  student:any;
   students: any[] = [
     {
         ID: 'std101', Name: 'Rakesh Rout',
@@ -37,5 +39,13 @@ export class AppComponent {
     }
 ];
 
+  constructor (private service:StudentsDataService ) {}
+    ngOnInit(){
+        //this.service.getdata().subscribe(res=>this.student=res);
+
+       this.service.getdata().subscribe((res:any[])=>{
+        this.student=res;
+      });
+    }
 
 }
