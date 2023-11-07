@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { Sinterface } from '././sinterface';
 
 @Injectable({
   providedIn: 'root'
@@ -11,8 +12,8 @@ export class StudentsDataService {
 
   constructor( private http:HttpClient ) { }
 
-  getdata():Observable<any>{
-    return this.http.get<any>(this.url);
+  getdata():Observable<Sinterface>{
+    return this.http.get<Sinterface>(this.url);
   }
   
 }
