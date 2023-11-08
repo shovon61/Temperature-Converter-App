@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CustomPipePipe } from './custom-pipe.pipe';
 import { ReversePipe } from './reverse.pipe';
 import { TablePipe } from './table.pipe';
+import { CurrencyConverterPipe } from './currency-converter.pipe';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { TablePipe } from './table.pipe';
     TempConverterPipe,
     CustomPipePipe,
     ReversePipe,
-    TablePipe
+    TablePipe,
+    CurrencyConverterPipe
   ],
   imports: [
     BrowserModule,

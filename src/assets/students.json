@@ -15,24 +15,24 @@
     },
     {
         "ID": "std103", 
-        "Name": "Priyanka Dewangan", 
+        "Name": "Tasfia Osmi", 
         "DOB": "4/4/1892", 
         "Gender": "Female", 
         "CourseFee": 1100
     },
     {
         "ID": "std104", 
-        "Name": "Hina Sharma", 
+        "Name": "Sadia Alam", 
         "DOB": "8/19/1990", 
         "Gender": "Female", 
-        "CourseFee": 9000.50
+        "CourseFee": 9000
     },
     {
         "ID": "std105", 
-        "Name": "Sambit Satapathy",
+        "Name": "Gatu gutum",
         "DOB": "4/12/1991", 
         "Gender": "Male", 
-        "CourseFee": 9876.54
+        "CourseFee": 3500
     },
     {
         "ID": "std106", 
@@ -47,5 +47,12 @@
         "DOB": "8/2/1990", 
         "Gender": "Male", 
         "CourseFee": 8576
+    },
+    {
+        "ID": "std108",
+        "Name":"Rima Rani",
+        "DOB":"6/9/1999",
+        "Gender":"Female",
+        "CourseFee":5000
     }
 ]
