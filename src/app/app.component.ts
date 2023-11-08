@@ -16,6 +16,8 @@ export class AppComponent {
   Fahrenheit!:number;
   str_to_arr!: string;
   reverse_str!:string;
+  currency!:number;
+  BDT!:number;
   student:any;
   students: any[] = [
     {
