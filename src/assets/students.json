@@ -2,50 +2,50 @@
     {
         "ID": "std101",
         "Name": "Mehedi hasan",
-        "DOB": "2/7/1998", 
-        "Gender": "Male", 
+        "DOB": "2/7/1998",
+        "Gender": "Male",
         "CourseFee": 500
     },
     {
-        "ID": "std102", 
-        "Name": "Mahmudul Hassan", 
-        "DOB": "9/8/1999", 
-        "Gender": "Male", 
+        "ID": "std102",
+        "Name": "Mahmudul Hassan",
+        "DOB": "9/8/1999",
+        "Gender": "Male",
         "CourseFee": 700
     },
     {
-        "ID": "std103", 
-        "Name": "Tasfia Osmi", 
-        "DOB": "4/4/1892", 
-        "Gender": "Female", 
+        "ID": "std103",
+        "Name": "Tasfia Osmi",
+        "DOB": "4/4/1892",
+        "Gender": "Female",
         "CourseFee": 1100
     },
     {
-        "ID": "std104", 
-        "Name": "Sadia Alam", 
-        "DOB": "8/19/1990", 
-        "Gender": "Female", 
+        "ID": "std104",
+        "Name": "Sadia Alam",
+        "DOB": "8/19/1990",
+        "Gender": "Female",
         "CourseFee": 9000
     },
     {
-        "ID": "std105", 
+        "ID": "std105",
         "Name": "Gatu gutum",
-        "DOB": "4/12/1991", 
-        "Gender": "Male", 
+        "DOB": "4/12/1991",
+        "Gender": "Male",
         "CourseFee": 3500
     },
     {
-        "ID": "std106", 
+        "ID": "std106",
         "Name": "KD Patok",
-        "DOB": "4/12/1991", 
-        "Gender": "Male", 
+        "DOB": "4/12/1991",
+        "Gender": "Male",
         "CourseFee": 9076
     },
     {
-        "ID": "std107", 
+        "ID": "std107",
         "Name": "Jastice Chowdhury",
-        "DOB": "8/2/1990", 
-        "Gender": "Male", 
+        "DOB": "8/2/1990",
+        "Gender": "Male",
         "CourseFee": 8576
     },
     {
