@@ -6,7 +6,7 @@
     <p>Fahrenheit to Celsius</p>
     <p>Fahrenheit : <input type="text" [(ngModel)]="Fahrenheit" /></p>
     <p>Temperature is : " {{ Fahrenheit | tempConverter : 'C' }} " C</p>
-    
+
     <br>
 
     <p>Celcius to Fahrenheit</p>
@@ -50,7 +50,7 @@
             <th>Name</th>
             <th>DOB</th>
             <th>Gender</th>
-            <th>CourseFee</th>            
+            <th>CourseFee</th>
         </tr>
     </thead>
     <tbody>
@@ -74,7 +74,7 @@
             <th>Name</th>
             <th>DOB</th>
             <th>Gender</th>
-            <th>CourseFee</th>            
+            <th>CourseFee</th>
         </tr>
     </thead>
     <tbody>
@@ -100,5 +100,6 @@
     <p>PKR is : " {{ BDT | currencyConverter : 'PKR' }} "</p>
     <p>LRD is : " {{ BDT | currencyConverter : 'LRD' }} "</p>
     <p>EGP is : " {{ BDT | currencyConverter : 'EGP' }} "</p>
+    <p>EGP is : " {{ BDT | currencyConverter : 'JPN' }} "</p>
   </div>
 </main>

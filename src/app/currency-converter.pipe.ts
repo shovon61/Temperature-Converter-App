@@ -28,6 +28,9 @@ export class CurrencyConverterPipe implements PipeTransform {
             case 'EGP':
                 var currency = (value * 0.280488);
                 break;
+            case 'JPN':
+                var currency = (value * 0.68955);
+                break;
             default:
                 return null; // Return undefined for unsupported units
         }
